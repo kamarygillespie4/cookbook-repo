@@ -8,8 +8,11 @@
     <label class="form-label" for="recipe-title">Title</label>
     <input type="text" name="recipe-title" value="{{recipe.title}}" class="form-input" />
 
-    <label class="form-label" for="recipe-body">Content</label>
-    <textarea name="recipe-body" class="form-input">{{recipe.body}}</textarea>
+    <label class="form-label" for="recipe-ingredients">Ingredients</label>
+    <textarea name="recipe-ingredients" class="form-input">{{recipe.ingredients}}</textarea>
+
+    <label class="form-label" for="recipe-instructions">instructions</label>
+    <textarea name="recipe-instructions" class="form-input">{{recipe.instructions}}</textarea>
 
     <button type="submit" class="btn">Update</button>
 
