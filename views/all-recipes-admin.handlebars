@@ -2,6 +2,8 @@
   {{#each recipes}}
     <a class="list-item flex-row justify-space-between" href="/dashboard/edit/{{id}}">
       <span>{{title}}</span>
+      <span>{{ingredients}}</span>
+      <span>{{instructions}}</span>
       <span>{{format_date createdAt}}</span>
     </a>
   {{/each}}
