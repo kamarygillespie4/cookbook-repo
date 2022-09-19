@@ -1,10 +1,10 @@
 <div class="recipes list-group">
   {{#each recipes}}
-    <a class="list-item flex-row justify-space-between" href="/dashboard/edit/{{id}}">
+    <a class="list-item justify-space-between" href="/dashboard/edit/{{id}}">
       <div>{{title}}</div>
       <div>{{format_date createdAt}}</div>
     </a>
-  {{/each}}
-</div>
       <div>{{ingredients}}</div>
       <div>{{instructions}}</div>
+  {{/each}}
+</div>
